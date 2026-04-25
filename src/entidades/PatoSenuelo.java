@@ -23,22 +23,22 @@ public class PatoSenuelo extends Pato implements Volable, Cuaqueable {
 
     @Override
     public void setVolable(Volable fb) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("");
     }
 
     @Override
     public void setCuaqueable(Volable fb) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("");
     }
 
     @Override
     public void realizarVueo(Volable fb) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("");
     }
 
     @Override
     public void realizarCuaqueo(Volable fb) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        System.out.println("");
     }
     
     

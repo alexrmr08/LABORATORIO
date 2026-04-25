@@ -20,7 +20,7 @@ public abstract class Pato {
     public abstract void setVolable(Volable fb);
     public abstract void setCuaqueable(Volable fb);
     public abstract void realizarVueo(Volable fb);
-    public abstract void realizarCuaqueo(Volable fb);
+    public abstract void realizarCuaqueo (Volable fb);
     
     
 }
