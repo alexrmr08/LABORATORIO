@@ -1,13 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package entidades;
+
+import dominio.Volable;
 
 /**
  *
  * @author sistemas
  */
-public class VuelaConAlas {
+
+public class VuelaConAlas implements Volable {
+
+    @Override
+    public void volar() {
+        
+        
+        
+    }
     
 }

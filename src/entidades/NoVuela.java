@@ -4,10 +4,17 @@
  */
 package entidades;
 
+import dominio.Volable;
+
 /**
  *
  * @author sistemas
  */
-public class NoVuela {
+public class NoVuela implements Volable {
+
+    @Override
+    public void volar() {
+        
+    }
     
 }
