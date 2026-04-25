@@ -4,10 +4,19 @@
  */
 package entidades;
 
+import dominio.Cuaqueable;
+
 /**
  *
  * @author sistemas
  */
-public class Chirreo {
+public class Chirreo implements Cuaqueable{
+
+    @Override
+    public void cuaquear() {
+
+        
+        
+    }
     
 }

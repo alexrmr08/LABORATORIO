@@ -4,20 +4,10 @@
  */
 package entidades;
 
-import dominio.Cuaqueable;
-
 /**
  *
  * @author sistemas
  */
-public class CuaqueoMudo implements Cuaqueable {
-
-    @Override
-    public void cuaquear() {
-
-        
-
-    }
-    
+public class VuelaConAlas {
     
 }
