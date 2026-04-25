@@ -11,9 +11,7 @@ public class VuelaConAlas implements Volable {
 
     @Override
     public void volar() {
-        
-        
-        
+        System.out.println("");
     }
     
 }
