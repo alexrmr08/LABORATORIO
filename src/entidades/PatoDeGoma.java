@@ -1,43 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package entidades;
 
-import dominio.Cuaqueable;
-import dominio.Volable;
+public class PatoDeGoma extends Pato {
 
-/**
- *
- * @author sistemas
- */
-public class PatoDeGoma extends Pato{
+    public PatoDeGoma() {
+        volable = new NoVuela();       // no vuela
+        cuaqueable = new Chirreo();   // hace chirrido
+    }
 
     @Override
     public void mostrar() {
-        System.out.println("Yo soy un Patito de Goma");
+        System.out.println("Yo soy un Patito de Goma.");
     }
-
-    @Override
-    public void setVolable(Volable fb) {
-        System.out.println("");
-    }
-
-    @Override
-    public void setCuaqueable(Cuaqueable fb) {
-        System.out.println("");
-    }
-
-    @Override
-    public void realizarVueo(Volable fb) {
-        System.out.println("");
-    }
-
-    @Override
-    public void realizarCuaqueo(Cuaqueable fb) {
-        System.out.println("");
-    }
-    
-    
-    
 }
