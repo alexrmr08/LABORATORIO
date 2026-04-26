@@ -24,7 +24,7 @@ public class PatoReal extends Pato{
     }
 
     @Override
-    public void setCuaqueable(Volable fb) {
+    public void setCuaqueable(Cuaqueable fb) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
@@ -34,7 +34,7 @@ public class PatoReal extends Pato{
     }
 
     @Override
-    public void realizarCuaqueo(Volable fb) {
+    public void realizarCuaqueo(Cuaqueable fb) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

@@ -27,9 +27,9 @@ public abstract class Pato {
     
     public abstract void mostrar();
     public abstract void setVolable(Volable fb);
-    public abstract void setCuaqueable(Volable fb);
+    public abstract void setCuaqueable(Cuaqueable fb);
     public abstract void realizarVueo(Volable fb);
-    public abstract void realizarCuaqueo (Volable fb);
+    public abstract void realizarCuaqueo (Cuaqueable fb);
     
     
 }

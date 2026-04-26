@@ -17,7 +17,7 @@ public class PatoCabezaRoja extends Pato {
     }
 
     @Override
-    public void setCuaqueable(Volable fb) {
+    public void setCuaqueable(Cuaqueable fb) {
         System.out.println("");    
     }
 
@@ -27,7 +27,7 @@ public class PatoCabezaRoja extends Pato {
     }
 
     @Override
-    public void realizarCuaqueo(Volable fb) {
+    public void realizarCuaqueo(Cuaqueable fb) {
         System.out.println("");
     }
     
