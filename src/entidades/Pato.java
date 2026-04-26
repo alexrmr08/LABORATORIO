@@ -5,13 +5,22 @@
 package entidades;
 
 import dominio.Volable;
+import dominio.Cuaqueable;
 
 /**
  *
  * @author sistemas
  */
 public abstract class Pato {
+
+    Volable volable;
+    Cuaqueable cuaqueable;
     
+
+    
+    public Pato() {
+    }
+
     public void nadar() {
         System.out.println("TODOS LOS PATOS NADAN.\n");
     }

@@ -11,21 +11,11 @@ import dominio.Volable;
  *
  * @author sistemas
  */
-public class PatoReal extends Pato implements Volable, Cuaqueable{
+public class PatoReal extends Pato{
 
     @Override
     public void mostrar() {
         System.out.println("Yo soy un verdadero PATO REAL.");
-    }
-
-    @Override
-    public void volar() {
-        System.out.println("Puedo volar con mis alas.");
-    }
-
-    @Override
-    public void cuaquear() {
-        System.out.println("Soy un verdadero pato por eso hago CUAC CUAC.");
     }
 
     @Override
